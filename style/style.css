@@ -1,0 +1,23 @@
+.header-container{
+    margin-top: 2%;
+}
+.logo{
+    width: 150px;
+}
+.logo-img{
+    width: 100%;
+}
+.navbar-nav a{
+    font-weight: 500;
+}
+.btn{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: black;
+    border: none;
+    transition: 3s;
+}
+.btn:hover{
+    background-color: lightgray;
+}
