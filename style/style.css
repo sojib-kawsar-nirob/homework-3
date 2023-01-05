@@ -26,23 +26,26 @@
 .banner-detail p{
     width: 500px;
     letter-spacing: 1.5px;
-    color: rgb(233, 147, 18);
+    color: rgb(236, 95, 2);
     padding: 20px 0;
 }
 .banner-section{
     padding-bottom: 30px;
+   
 }
-
+.style{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
 .title{
     justify-content: space-between;
     padding-bottom: 20px;
 }
 .title h4{
     font-weight: 700;
-
+font-family: 'Times New Roman', Times, serif;
 }
 .title h5{
-    color: rgb(233, 147, 18);
+    color: rgb(236, 95, 2);
 }
 .card-img-top{
     width: 70%;
@@ -51,6 +54,7 @@
     padding: 30px 0;
     border: none;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 .card-title{
     font-weight: 700;
@@ -65,4 +69,103 @@
 }
 .phone-section{
     padding-bottom: 50px;
+}
+.laptop-section{
+    padding-bottom: 100px;
+}
+.catagories{
+    padding-bottom: 50px;
+}
+.catagories h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.underline{
+    width: 100px;
+    height: 7px;
+    margin-left: 46%;
+    background-image: linear-gradient(45deg,rgb(221, 155, 56),rgb(236, 95, 2));
+    border: none;
+    border-radius: 10px;
+}
+.col-md-5 img{
+    width: 120%;
+}
+.col-md-3 img{
+    width: 50%;
+    padding: 10px 0;
+}
+.box1,.box2{
+   box-shadow:0px 10px 40px rgba(0, 0, 0, 0.1);
+   align-items: center;
+   text-align: center;
+   margin: 20px;
+   align-items: center;
+   padding: 40px 0;
+}
+.bejal{
+    padding-bottom: 100px;
+}
+.contact{
+    justify-content: space-between;
+   background-color: rgb(243, 236, 226);
+   padding: 10%;
+   gap: 100px;
+   box-shadow:0px 10px 40px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width h2{
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.half-width p{
+    letter-spacing: 2px;
+    color: rgb(236, 95, 2);
+    
+}
+input, textarea{
+    margin-bottom: 25px;
+    border: 0;
+    width: 100%;
+    padding: 18px 50px;
+}
+.btn2 .btn{
+    float: right;
+}
+.icon{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon img{
+    padding: 20px 0 0 30px;
+}
+.icon h6{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about h6{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about ul li{
+    list-style: none;
+    padding: 8px;
+    color: dimgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.copy p{
+    font-size: 12px;
+    color: dimgray;
+    text-align: center;
 }
